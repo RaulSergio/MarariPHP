@@ -9,9 +9,3 @@
 </html>
 
 
-/**
-* Created by PhpStorm.
-* User: drago
-* Date: 29/07/2017
-* Time: 15:40
-*/

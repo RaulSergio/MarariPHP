@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40bd2fd2-5272-41f9-b2ce-2822435763af" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Caixa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Cliente.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Fornecedor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Funcionario.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/MedidaProduto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Produto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/Servico.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/TipoDespesa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/TipoProduto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Marari/model/TipoServico.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Marari/model/Index.php" afterPath="$PROJECT_DIR$/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.php" afterPath="$PROJECT_DIR$/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.php" afterPath="$PROJECT_DIR$/database.php" />
     </list>
     <ignored path="MarariPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +45,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="446">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
-                <marker date="1503075781003" expanded="true" signature="435:447" placeholder="INSERT INTO $... " />
-                <marker date="1503075781003" expanded="true" signature="435:455" placeholder="INSERT INTO " />
-                <marker date="1503075781003" expanded="true" signature="435:466" placeholder="INSERT INTO $... " />
-                <marker date="1503075781003" expanded="true" signature="435:474" placeholder="INSERT INTO $... " />
-                <marker date="1503075781003" expanded="true" signature="435:484" placeholder="INSERT INTO $... " />
-                <marker date="1503075781003" expanded="true" signature="654:676" placeholder="SELECT * FRO... $" />
-                <marker date="1503075781003" expanded="true" signature="654:684" placeholder="SELECT {} FR... " />
-                <marker date="1503075781003" expanded="true" signature="654:693" placeholder="SELECT ${{$f... " />
+                <marker date="1503077632249" expanded="true" signature="435:447" placeholder="INSERT INTO $... " />
+                <marker date="1503077632249" expanded="true" signature="435:455" placeholder="INSERT INTO " />
+                <marker date="1503077632249" expanded="true" signature="435:466" placeholder="INSERT INTO $... " />
+                <marker date="1503077632249" expanded="true" signature="435:474" placeholder="INSERT INTO $... " />
+                <marker date="1503077632249" expanded="true" signature="435:484" placeholder="INSERT INTO $... " />
+                <marker date="1503077632249" expanded="true" signature="654:676" placeholder="SELECT * FRO... $" />
+                <marker date="1503077632249" expanded="true" signature="654:684" placeholder="SELECT {} FR... " />
+                <marker date="1503077632249" expanded="true" signature="654:693" placeholder="SELECT ${{$f... " />
+                <marker date="1503077632249" expanded="true" signature="1184:1203" placeholder="UPDATE ${{$t... " />
+                <marker date="1503077632249" expanded="true" signature="1356:1368" placeholder="DELETE FROM " />
+                <marker date="1503077632249" expanded="true" signature="1356:1376" placeholder="DELETE FROM " />
+                <marker date="1503077632249" expanded="true" signature="1356:1384" placeholder="DELETE FROM " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +99,7 @@
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/database.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
       </list>
     </option>
   </component>
@@ -242,18 +248,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503066596053</updated>
-      <workItem from="1503066597408" duration="5503000" />
+      <workItem from="1503066597408" duration="7887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5503000" />
+    <option name="totallyTimeSpent" value="7887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="0" />
+    <frame x="683" y="0" width="683" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09595203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2233883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -281,14 +287,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Marari/model/Caixa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -394,18 +392,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="446">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
-            <marker date="1503075781003" expanded="true" signature="435:447" placeholder="INSERT INTO $... " />
-            <marker date="1503075781003" expanded="true" signature="435:455" placeholder="INSERT INTO " />
-            <marker date="1503075781003" expanded="true" signature="435:466" placeholder="INSERT INTO $... " />
-            <marker date="1503075781003" expanded="true" signature="435:474" placeholder="INSERT INTO $... " />
-            <marker date="1503075781003" expanded="true" signature="435:484" placeholder="INSERT INTO $... " />
-            <marker date="1503075781003" expanded="true" signature="654:676" placeholder="SELECT * FRO... $" />
-            <marker date="1503075781003" expanded="true" signature="654:684" placeholder="SELECT {} FR... " />
-            <marker date="1503075781003" expanded="true" signature="654:693" placeholder="SELECT ${{$f... " />
+            <marker date="1503077632249" expanded="true" signature="435:447" placeholder="INSERT INTO $... " />
+            <marker date="1503077632249" expanded="true" signature="435:455" placeholder="INSERT INTO " />
+            <marker date="1503077632249" expanded="true" signature="435:466" placeholder="INSERT INTO $... " />
+            <marker date="1503077632249" expanded="true" signature="435:474" placeholder="INSERT INTO $... " />
+            <marker date="1503077632249" expanded="true" signature="435:484" placeholder="INSERT INTO $... " />
+            <marker date="1503077632249" expanded="true" signature="654:676" placeholder="SELECT * FRO... $" />
+            <marker date="1503077632249" expanded="true" signature="654:684" placeholder="SELECT {} FR... " />
+            <marker date="1503077632249" expanded="true" signature="654:693" placeholder="SELECT ${{$f... " />
+            <marker date="1503077632249" expanded="true" signature="1184:1203" placeholder="UPDATE ${{$t... " />
+            <marker date="1503077632249" expanded="true" signature="1356:1368" placeholder="DELETE FROM " />
+            <marker date="1503077632249" expanded="true" signature="1356:1376" placeholder="DELETE FROM " />
+            <marker date="1503077632249" expanded="true" signature="1356:1384" placeholder="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

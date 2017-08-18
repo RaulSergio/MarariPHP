@@ -40,5 +40,22 @@ function DBRead($table,$params = null,$fields = '*'){
         return $data;
     }
 
+}
 
+//alterar registros
+function DBUpdate($table, array $data, $where = null){
+    foreach ($data as $key => $value){
+        $fields[] = "{$key} = '{$value}'";
+    }
+    $fields = implode(', ',$fields);
+    $where = ($where) ? " WHERE {$where}" : null;
+    $query = "UPDATE {$table} SET{$fields}{$where}";
+}
+
+//deletar registros
+function DBDelete($table,$where = null){
+    $where = ($where) ? " WHERE {$where}" : null;
+    
+    $query = "DELETE FROM {$table}{$where}";
+    return DBExecute($query);
 }
