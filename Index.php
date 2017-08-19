@@ -15,6 +15,7 @@ $link = DBConnect();
             <label>Senha</label>
             <input type="password" name="senha" id="inputSenha"><br>
             <button type="submit">Acessar</button>
+            <a href="esquecisenha.php">Esqueci minha senha</a>
         </form>
     <p>
         <?php if (isset($_SESSION['loginErro'])){
