@@ -34,6 +34,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 var Util = function ($) {
+  
+  
 
   /**
    * ------------------------------------------------------------------------
